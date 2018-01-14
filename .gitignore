@@ -1,0 +1,6 @@
+build/x64
+
+build/.vs
+test
+Debug
+Release
