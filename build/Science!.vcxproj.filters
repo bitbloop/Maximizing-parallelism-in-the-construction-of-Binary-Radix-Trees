@@ -4,12 +4,25 @@
     <Filter Include="util">
       <UniqueIdentifier>{9e094654-b804-4c59-8b1c-12a7299bfc1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="maximizing_tree_construction_parallelism">
+      <UniqueIdentifier>{c8edace2-bb25-4197-bd5b-bcbcb3e1bbdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\util\loader_obj_nogl.cpp">
-      <Filter>util</Filter>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.cpp">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\util\random.cpp">
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_basic.cpp">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.cpp">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.cpp">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\loader_obj_nogl.cpp">
       <Filter>util</Filter>
     </ClCompile>
   </ItemGroup>
@@ -20,11 +33,25 @@
     <ClInclude Include="..\src\util\timer.h">
       <Filter>util</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.h">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_basic.h">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.h">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </ClInclude>
     <ClInclude Include="..\src\util\loader_obj_nogl.h">
       <Filter>util</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\util\random.h">
-      <Filter>util</Filter>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.h">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\maximizing_tree_construction_parallelism\basic.glsl">
+      <Filter>maximizing_tree_construction_parallelism</Filter>
+    </None>
   </ItemGroup>
 </Project>

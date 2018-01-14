@@ -19,14 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_basic.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.h" />
     <ClInclude Include="..\src\util\loader_obj_nogl.h" />
     <ClInclude Include="..\src\util\math.h" />
-    <ClInclude Include="..\src\util\random.h" />
     <ClInclude Include="..\src\util\timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_basic.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.cpp" />
     <ClCompile Include="..\src\util\loader_obj_nogl.cpp" />
-    <ClCompile Include="..\src\util\random.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\maximizing_tree_construction_parallelism\basic.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
