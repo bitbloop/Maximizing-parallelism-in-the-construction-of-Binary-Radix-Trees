@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{9e094654-b804-4c59-8b1c-12a7299bfc1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\util\loader_obj_nogl.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\random.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\util\math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\timer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\loader_obj_nogl.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\random.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
