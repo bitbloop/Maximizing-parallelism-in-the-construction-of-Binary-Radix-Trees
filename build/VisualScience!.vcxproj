@@ -19,6 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_basic.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.cpp" />
+    <ClCompile Include="..\src\maximizing_tree_construction_parallelism\test_render_data.cpp" />
     <ClCompile Include="..\src\renderer\loader_obj.cpp" />
     <ClCompile Include="..\src\renderer\lodepng.cpp" />
     <ClCompile Include="..\src\renderer\pointcloud.cpp" />
@@ -29,8 +34,14 @@
     <ClCompile Include="..\src\renderer\texture.cpp" />
     <ClCompile Include="..\src\renderer\window.cpp" />
     <ClCompile Include="..\src\util\loader_obj_nogl.cpp" />
+    <ClCompile Include="..\src\visualmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\binary_radix_tree.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\info_binary_radix_tree.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_basic.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_obj_threaded.h" />
+    <ClInclude Include="..\src\maximizing_tree_construction_parallelism\test_render_data.h" />
     <ClInclude Include="..\src\renderer\loader_obj.h" />
     <ClInclude Include="..\src\renderer\lodepng.h" />
     <ClInclude Include="..\src\renderer\pointcloud.h" />
@@ -43,6 +54,9 @@
     <ClInclude Include="..\src\util\loader_obj_nogl.h" />
     <ClInclude Include="..\src\util\math.h" />
     <ClInclude Include="..\src\util\timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\maximizing_tree_construction_parallelism\basic.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
