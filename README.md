@@ -38,8 +38,6 @@ Tests to test the validity and profile the tree construction, using vertices of 
 src/maximizing_tree_construction_parallelism/test_obj_threaded.*  
 files.
 
-They test and profile the serial and threaded tree creation with the data loaded from a mesh.
-
 ## Deployment
 
 If distributing the built executable, put the data files in the folder <exe_folder>/maximizing_tree_construction_parallelism
